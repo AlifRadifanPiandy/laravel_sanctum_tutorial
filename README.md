@@ -1,20 +1,17 @@
 # Laravel Sanctum Tutorial
-This is the official repository for my [Laravel Sanctum - tutorial]() which is available on YouTube. <br>
-•	Author: Code With Dary <br>
-•	Twitter: [@codewithdary](https://twitter.com/codewithdary) <br>
-•	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
+This is the official repository for my Laravel Sanctum Tutorial. <br>
+•	Author: Alif Radifan Piandy <br>
 
 ### Utilities
 The following additional tools will be used during this tutorial
 
-- [Laravel Sanctum](https://laravel.com/docs/9.x/sanctum) for an authentication system
+- [Laravel Sanctum](https://laravel.com/docs/10.x/sanctum) for an authentication system
 - [Postman](https://www.postman.com/) for our Laravel API
-- [Database Client](https://tableplus.com/) to have a look inside our database
 
 ## Usage <br>
 Setup the repository <br>
 ```
-git clone git@github.com:codewithdary/laravel-sanctum-tutorial.git
+git clone git@github.com:AlifRadifanPiandy/laravel_sanctum_tutorial.git
 cd laravel-sanctum-tutorial
 composer install
 cp .env.example .env 
@@ -26,7 +23,7 @@ php artisan serve
 ## Database Setup <br>
 ```
 mysql;
-create database laravel-sanctum-tutorial;
+create database laravel_sanctum_tutorial;
 exit;
 ```
 
@@ -36,7 +33,7 @@ exit;
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=laravel-sanctum-tutorial
+DB_DATABASE=laravel_sanctum_tutorial
 DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
 ```
@@ -54,5 +51,5 @@ php artisan migrate
 ```
 
 # Credits due where credits due…
-Thanks to [Laravel](https://laravel.com/) for giving me the opportunity to make this tutorial on [Laravel Sanctum](https://laravel.com/docs/9.x/sanctum). 
+Thanks to [Laravel](https://laravel.com/) for giving me the opportunity to make this tutorial on [Laravel Sanctum](https://laravel.com/docs/10.x/sanctum). 
 # laravel_sanctum_tutorial
